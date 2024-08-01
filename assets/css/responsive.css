@@ -1,0 +1,67 @@
+/* =================== responsive for tablet =================== */
+@media (max-width: 1024.98px) {
+  /* about section */
+}
+
+/* =================== responsive for phones =================== */
+@media (max-width: 991.98px) {
+  /* custom classes */
+  .text-content {
+    width: 100%;
+  }
+
+  /* navbar brand */
+  .navigation-wrap .navbar-brand img {
+    height: 6.1rem;
+  }
+
+  .navigation-wrap {
+    text-align: center;
+    background-color: var(--white-color);
+  }
+
+  .navigation-wrap .nav-link {
+    line-height: 3rem;
+  }
+
+  /* banner design */
+  .top-banner {
+    padding: 15rem 0;
+  }
+
+  /* carousel design */
+}
+
+@media (max-width: 767.98px) {
+  /* custom css */
+  h1 {
+    font-size: 4.5rem;
+  }
+
+  h2 {
+    font-size: 3.2rem;
+    line-height: 3.3rem;
+  }
+
+  /* top banner */
+  .top-banner {
+    padding: 17.4rem 0 15rem;
+  }
+
+  /* counter section */
+  .counter-section .text-center > div:last-child p {
+    margin-bottom: 0;
+  }
+
+  /* story section */
+
+  /* carousel design */
+
+  /* newsletter */
+
+  /* footer link */
+}
+
+@media (max-width: 330px) {
+  /* carousel design */
+}
