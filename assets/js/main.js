@@ -11,10 +11,14 @@ window.onscroll = function () {
 // nav hide
 const navBar = document.querySelectorAll(`.nav-link`);
 const navCollapse = document.querySelector(`.navbar-collapse.collapse`);
+const body = document.querySelector(`body`);
 navBar.forEach(function (a) {
   a.addEventListener(`click`, function () {
     navCollapse.classList.remove(`show`);
   });
+});
+body.addEventListener("click", () => {
+  navCollapse.classList.remove(`show`);
 });
 
 // counter design

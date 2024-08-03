@@ -24,9 +24,18 @@
     line-height: 3rem;
   }
 
+  .navbar-nav > li:first-child {
+    padding: 0 0 0.8rem !important;
+  }
+
+  .navbar-nav > li:last-child {
+    padding: 0.8rem 0 1.6rem !important;
+  }
+
   /* banner design */
   .top-banner {
-    padding: 15rem 0;
+    padding-top: 30%;
+    /* padding: 15rem 0; */
   }
 
   /* carousel design */
@@ -45,7 +54,8 @@
 
   /* top banner */
   .top-banner {
-    padding: 17.4rem 0 15rem;
+    padding-top: 38%;
+    /* padding: 17.4rem 0 15rem; */
   }
 
   /* counter section */
